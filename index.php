@@ -27,8 +27,8 @@
 
     <!--hero -->
     <main>
-        <div class="greeting">
-            <h1 class="hxl">Nice to meet you! <br> i'm Fachrizal Ainurrahman</h1>
+        <div class="">
+            <h1 class="hxl light">Nice to meet you! <br> i'm Fachrizal Ainurrahman</h1>
             <p>With extensive programming experience since age 9, I've cultivated a fervent passion for machine learning. Committed to continuous learning, I aspire to leverage my competencies in this field to eventually build my career.</p>
 
             <a href="#">CONTACT ME</a>

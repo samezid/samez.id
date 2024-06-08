@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   /* color */
   --primary: #6c1bf0;
@@ -11,7 +17,7 @@
 }
 
 body {
-  background-color: var(--primary);
+  background-color: var(--dark);
 }
 
 /* color */
@@ -76,4 +82,12 @@ body {
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
+}
+
+
+/* style component */
+
+/* navbar */
+.nav {
+  border : 1px solid black;
 }
