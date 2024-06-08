@@ -1,0 +1,79 @@
+:root {
+  /* color */
+  --primary: #6c1bf0;
+  --dark: #1b1b1b;
+  --semi-dark: #242424;
+  --semi-white: #d9d9d9;
+  --white: #ffff;
+
+  /* typography */
+  --primary-font: 'Space Grotesk', sans-serif;
+}
+
+body {
+  background-color: var(--primary);
+}
+
+/* color */
+.primary {
+  color: var(--primary);
+}
+.dark {
+  color: var(--dark);
+}
+.semi-dark {
+  color: var(--semi-dark);
+}
+.light {
+  color: var(--white);
+}
+.semi-light {
+  color: var(--semi-white);
+}
+
+/* background color */
+.bg-primary {
+  background-color: var(--primary);
+}
+.bg-dark {
+  background-color: var(--dark);
+}
+.bg-semi-dark {
+  background-color: var(--semi-dark);
+}
+.bg-light {
+  background-color: var(--white);
+}
+.bg-semi-light {
+  background-color: var(--semi-white);
+}
+
+/* heading */
+
+.hxl {
+  font-family: var(--primary-font);
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.hl {
+    font-family: var(--primary-font);
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.hm {
+    font-family: var(--primary-font);
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.paraf {
+    font-family: var(--primary-font);
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
